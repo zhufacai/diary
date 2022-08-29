@@ -154,16 +154,16 @@ async def index():
 @app.get("/show/")
 async def show(p=Query(None), t=Query(None), c=Query(None)):
     html = show_html
-    if p != None:
+    if p:
         html = html.replace(".pic{display:none}", "").replace("<&p&>", p)
-    if t != None:
+    if t:
         t = t.replace("\\n", "<br/>")
         html = html.replace(".title{display:none}", "").replace("<&t&>", t)
-    if c != None:
+    if c:
         c = c.replace("\\n", "<br/>")
         html = html.replace(".content{display:none}", "").replace("<&c&>", c)
     return HTMLResponse(html)
 
 if __name__ == '__main__':
     uvicorn.run(app='index:app', host="127.0.0.1",
-                port=8000, reload=True, debug=True)
+                port=20020, reload=True, debug=True)

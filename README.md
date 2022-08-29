@@ -11,7 +11,7 @@
 
 - 路径模板：https://XXX.vercel.app/show?t=标题&c=内容&p=图片链接
 
-  例：https://ii.vercel.app/show?t=守住关口&c=兰贝里斯山口脚下的多尔巴达恩城堡，威尔士&p=http://www.bing.com/th?id=OHR.DolbadarnCastle_ZH-CN5397592090_1920x1080.jpg
+  例：https://XXX.vercel.app/show?t=守住关口&c=兰贝里斯山口脚下的多尔巴达恩城堡，威尔士&p=http://www.bing.com/th?id=OHR.DolbadarnCastle_ZH-CN5397592090_1920x1080.jpg
 
 | 参数名 |      含义       |                       备注                        |
 | :----: | :-------------: | :-----------------------------------------------: |
