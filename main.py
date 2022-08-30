@@ -181,4 +181,4 @@ async def show(p=Query(None), t=Query(None), c=Query(None)):
 
 if __name__ == '__main__':
     uvicorn.run(app='main:app', host="127.0.0.1",
-                port=20020, reload=True, debug=True)
+                port=10086, reload=True, debug=True)
